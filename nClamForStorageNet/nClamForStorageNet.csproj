@@ -6,14 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Readme.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Readme.md" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="nClam" Version="5.0.1" />
     <PackageReference Include="Storage.Net" Version="9.2.7" />
   </ItemGroup>
